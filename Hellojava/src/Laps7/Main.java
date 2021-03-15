@@ -11,7 +11,6 @@ public class Main {
         n.rateList.add(3);
         n.rateList.add(4);
         n.rateList.add(4);
-    //Integer x = new Integer(4);
         n.calculate();
         n.Display();
 }
