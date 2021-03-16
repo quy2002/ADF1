@@ -6,9 +6,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Cart {
-    String id;
+    int id;
     String customer;
     double grandTotal;
+    String city;
     List<Product> productList;
 
     Scanner scanner = new Scanner(System.in);
