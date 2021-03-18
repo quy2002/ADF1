@@ -1,0 +1,30 @@
+package BaiThi;
+
+public class Car implements Vehicle{
+    String ten;
+    float velocity=250;
+
+    public String getTen() {
+        return ten;
+    }
+
+    public void setTen(String ten) {
+        this.ten = ten;
+    }
+
+    public float getVelocity() {
+        return velocity;
+    }
+
+
+
+    @Override
+    public float moveMax() {
+        return velocity;
+    }
+
+    @Override
+    public String getName() {
+        return ten;
+    }
+}
