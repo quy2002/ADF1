@@ -1,7 +1,7 @@
 package Laps8_2;
 
 public class SinhVien {
-    int id;
+    int id; 
     String name;
     int age;
     String address;
